@@ -132,7 +132,7 @@ body {
   border-radius: 30%;
   border: 2px solid black;
 }
-ul {
+.index_list {
   list-style-type: none;
 }
 .ingredients {
@@ -149,7 +149,15 @@ ul {
   line-height: 1.2;
 }
 .ingredients-content {
-
+  padding: .5em;
+  font-size: 1.4em;
+  border: 2px solid black;
+  border-width: .7;
+  background-color: white;
+  border-style: dotted;
+}
+.ingredients-content ul {
+  list-style-type: none;
 }
 
 p {
