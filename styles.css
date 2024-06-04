@@ -4,6 +4,17 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+/* Default styles for all devices */
+body {
+  font-size: 18px;
+}
+
+/* Styles for screens narrower than 768px */
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+}
 body {
   background: white;
   color: black;
@@ -57,6 +68,7 @@ body {
     line-height: 1.2;
 }
 .home-content h3 {
+  text-align: left;
   font-size: 32px;
   font-weight: 700;
   color: #c184c2;
@@ -158,6 +170,15 @@ body {
 }
 .ingredients-content ul {
   list-style-type: none;
+}
+.directions_header h1 {
+  text-align: center;
+}
+.directions_header h2, h3 {
+  margin-left: 2em;
+}
+.directions_list {
+  margin-left: 2em;
 }
 
 p {
